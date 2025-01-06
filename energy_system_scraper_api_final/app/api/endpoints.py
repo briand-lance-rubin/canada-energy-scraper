@@ -262,7 +262,7 @@ async def fetch_raw_data():
     try:
         # Step 1: Fetch raw HTML content
         fetcher = Fetcher(CONFIG["SCRAPER_URL"])
-        html_content = fetcher.fetch()
+        html_content = await fetcher.fetch()  # Ensure 'await' is added here for async function
 
         # Step 2: Parse the HTML content
         parser = Parser()
