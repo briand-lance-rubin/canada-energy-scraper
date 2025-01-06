@@ -28,7 +28,7 @@ The **Energy System Scraper API** is built using the following technologies:
 ### **1. Clone the Repository**
 
 ```bash
-git clone <>
+git clone <https://github.com/briand-lance-rubin/canada-energy-scraper.git>
 ```
 
 ### **2. Create a Virtual Environment**
