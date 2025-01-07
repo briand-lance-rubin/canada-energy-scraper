@@ -152,7 +152,7 @@ To deploy the application on Railway:
 The deployment should be accessible at:
 
 ```bash
-https://<your-railway-app-name>.up.railway.app
+https://canada-energy-system.up.railway.app
 ```
 
 ## **Environment Variables**
